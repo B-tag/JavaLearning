@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd95d707-98bd-40c5-80e5-d2c8a21c831f" name="Changes" comment="" />
+    <list default="true" id="cd95d707-98bd-40c5-80e5-d2c8a21c831f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaIfStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaUserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,29 +57,10 @@
       <recent name="E:\JavaPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaLoops">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreadingWithRunnable.Application" />
+  <component name="RunManager" selected="Application.JavaUserInput">
+    <configuration name="JavaIfStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaIfStatement" />
       <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MultiThreadingWithRunnable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CMSMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cms.CMSMain" />
-      <module name="JavaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaSortingList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSortingList" />
+    <configuration name="JavaUserInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaUserInput" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaUserInput" />
+        <item itemvalue="Application.JavaIfStatement" />
         <item itemvalue="Application.JavaLoops" />
         <item itemvalue="Application.JavaVariables" />
         <item itemvalue="Application.Testing" />
-        <item itemvalue="Application.CMSMain" />
-        <item itemvalue="Application.JavaSortingList" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +125,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -159,6 +144,15 @@
           <url>file://$PROJECT_DIR$/src/main/java/JavaLearning.java</url>
           <line>51</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/JavaUserInput.java</url>
+          <line>6</line>
+          <properties class="JavaUserInput" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
