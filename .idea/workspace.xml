@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd95d707-98bd-40c5-80e5-d2c8a21c831f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaIfStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaUserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaDoWhileLoops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSwitchCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +57,14 @@
       <recent name="E:\JavaPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaUserInput">
+  <component name="RunManager" selected="Application.JavaSwitchCase">
+    <configuration name="JavaDoWhileLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaDoWhileLoops" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaIfStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaIfStatement" />
       <module name="JavaPractice" />
@@ -72,6 +79,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaSwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaSwitchCase" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaUserInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaUserInput" />
       <module name="JavaPractice" />
@@ -79,27 +93,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaVariables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaVariables" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Testing" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaSwitchCase" />
+        <item itemvalue="Application.JavaDoWhileLoops" />
         <item itemvalue="Application.JavaUserInput" />
         <item itemvalue="Application.JavaIfStatement" />
         <item itemvalue="Application.JavaLoops" />
-        <item itemvalue="Application.JavaVariables" />
-        <item itemvalue="Application.Testing" />
       </list>
     </recent_temporary>
   </component>
@@ -144,15 +144,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/JavaLearning.java</url>
           <line>51</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/JavaUserInput.java</url>
-          <line>6</line>
-          <properties class="JavaUserInput" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
