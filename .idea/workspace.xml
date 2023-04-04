@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd95d707-98bd-40c5-80e5-d2c8a21c831f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaDoWhileLoops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSwitchCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaClass/ClassOfSamePackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaClass/MainPublicClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaClass/PackageOne/PublicClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaClass/PackageThree/PublicClassProtectedFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaClass/PackageTwo/DefaultClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +61,14 @@
       <recent name="E:\JavaPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaSwitchCase">
+  <component name="RunManager" selected="Application.JavaArray">
+    <configuration name="JavaArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaArray" />
+      <module name="JavaPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaDoWhileLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaDoWhileLoops" />
       <module name="JavaPractice" />
@@ -67,13 +78,6 @@
     </configuration>
     <configuration name="JavaIfStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaIfStatement" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaLoops" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaArray" />
         <item itemvalue="Application.JavaSwitchCase" />
         <item itemvalue="Application.JavaDoWhileLoops" />
         <item itemvalue="Application.JavaUserInput" />
         <item itemvalue="Application.JavaIfStatement" />
-        <item itemvalue="Application.JavaLoops" />
       </list>
     </recent_temporary>
   </component>
