@@ -24,7 +24,6 @@ public class JavaHashMap {
 
         System.out.println();
         System.out.println();
-        System.out.println();
         extracted(myMap);
 
 
