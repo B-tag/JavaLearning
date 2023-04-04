@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd95d707-98bd-40c5-80e5-d2c8a21c831f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaClass/ClassOfSamePackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaClass/MainPublicClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaClass/PackageOne/PublicClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaClass/PackageThree/PublicClassProtectedFields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaClass/PackageTwo/DefaultClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaClass/PackageOne/car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaClass/PackageTwo/car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
