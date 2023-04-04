@@ -23,7 +23,6 @@ public class JavaHashMap {
         myMap.put(152,"new Entry");
 
         System.out.println();
-        System.out.println();
         extracted(myMap);
 
 
