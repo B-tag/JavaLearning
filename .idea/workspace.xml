@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd95d707-98bd-40c5-80e5-d2c8a21c831f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaClass/JavaConstructors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaClass/JavaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaInheritance/InheritateFroClass/SuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaInheritance/JavaMainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaInterfaces/JavaImportInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaInterfaces/JavaInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaInterfaces/JavaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaNumericValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polymorphism/JavaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polymorphism/SubClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polymorphism/SuperClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaClass/JavaConstructors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaClass/JavaConstructors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaClass/JavaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaClass/JavaMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,27 +67,13 @@
       <recent name="E:\JavaPractice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JavaMain">
-    <configuration name="JavaArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaArray" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaDoWhileLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaDoWhileLoops" />
-      <module name="JavaPractice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaClass.JavaMain" />
+  <component name="RunManager" selected="Application.JavaMain (2)">
+    <configuration name="JavaMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polymorphism.JavaMain" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaClass.*" />
+          <option name="PATTERN" value="Polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,15 +81,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaSwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSwitchCase" />
+    <configuration name="JavaMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaInterfaces.JavaMain" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaInterfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaInheritance.JavaMainClass" />
+      <module name="JavaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaInheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaNumericValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaNumericValue" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaUserInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaUserInput" />
+    <configuration name="JavaStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaStatic" />
       <module name="JavaPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaMain" />
-        <item itemvalue="Application.JavaArray" />
-        <item itemvalue="Application.JavaSwitchCase" />
-        <item itemvalue="Application.JavaDoWhileLoops" />
-        <item itemvalue="Application.JavaUserInput" />
+        <item itemvalue="Application.JavaMain (2)" />
+        <item itemvalue="Application.JavaNumericValue" />
+        <item itemvalue="Application.JavaMain (1)" />
+        <item itemvalue="Application.JavaMainClass" />
+        <item itemvalue="Application.JavaStatic" />
       </list>
     </recent_temporary>
   </component>
