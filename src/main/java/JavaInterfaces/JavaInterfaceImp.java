@@ -1,18 +1,19 @@
 package JavaInterfaces;
 
-public class JavaImportInterface implements JavaInterface {
+public class JavaInterfaceImp implements JavaInterface {
 
     int age;
     String name,surname;
 
-    public JavaImportInterface(int age, String name, String surname) {
+    public JavaInterfaceImp(int age, String name, String surname) {
         this.age = age;
         this.name = name;
         this.surname = surname;
     }
 
-    public JavaImportInterface() {
+    public JavaInterfaceImp() {
     }
+
 
     @Override
     public void showInfo() {

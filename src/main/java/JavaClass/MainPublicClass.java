@@ -1,7 +1,7 @@
 package JavaClass;
 
-import JavaClass.PackageOne.PublicClass;
-import JavaClass.PackageThree.PublicClassProtectedFields;
+import JavaClass.PackageOnePublic.PublicClass;
+import JavaClass.PackageThreePublicProtectedMemeber.PublicClassProtectedFields;
 
 public class MainPublicClass extends PublicClassProtectedFields {
 

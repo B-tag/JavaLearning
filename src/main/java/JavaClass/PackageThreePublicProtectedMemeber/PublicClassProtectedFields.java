@@ -1,4 +1,4 @@
-package JavaClass.PackageThree;
+package JavaClass.PackageThreePublicProtectedMemeber;
 
 public class PublicClassProtectedFields {
 

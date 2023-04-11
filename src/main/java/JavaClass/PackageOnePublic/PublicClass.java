@@ -1,9 +1,8 @@
-package JavaClass.PackageTwo;
+package JavaClass.PackageOnePublic;
 
-class DefaultClass {
+public class PublicClass {
 
     public int age;
     public String name;
     String family;
-
 }
