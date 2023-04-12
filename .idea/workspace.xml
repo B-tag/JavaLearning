@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd95d707-98bd-40c5-80e5-d2c8a21c831f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaClass/JavaMainMemberPracticing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaClass/PackageFourDifferentClassMemeber/OtherSameClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaClass/PackageFourDifferentClassMemeber/PublicClassWithDifferentMember.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaClass/MainPublicClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaClass/MainPublicClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaClass/PackageOne/PublicClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaClass/PackageOnePublic/PublicClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaClass/PackageOne/car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaClass/PackageOnePublic/car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaClass/PackageThree/PublicClassProtectedFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaClass/PackageThreePublicProtectedMemeber/PublicClassProtectedFields.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaClass/PackageTwo/DefaultClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaClass/PackageTwoDefault/DefaultClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaClass/PackageTwo/car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaClass/PackageTwoDefault/car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaInterfaces/JavaImportInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaInterfaces/JavaInterfaceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaInterfaces/JavaInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaInterfaces/JavaInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaInterfaces/JavaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaInterfaces/JavaMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +45,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -81,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaInterfaces.JavaMain" />
+    <configuration name="JavaMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaClass.JavaMain" />
       <module name="JavaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaInterfaces.*" />
+          <option name="PATTERN" value="JavaClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
