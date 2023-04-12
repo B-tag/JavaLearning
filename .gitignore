@@ -7,4 +7,4 @@ tmp/*
 # temp of screenshots
 src/test/resources/*
 .idea/workspace.xml
-.idea
+.idea/*
