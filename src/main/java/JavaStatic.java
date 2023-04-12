@@ -3,19 +3,15 @@ class Student {
     static int age;
     static String name;
     String family;
-
     final static boolean bool = false;
 
     public void showInfo() {
-        System.out.println("Age : " + age + " - Name : " + name + " - Family : " + family);
+        System.out.println("Show info == Age : " + age + " - Name : " + name + " - Family : " + family);
 //        bool=true;
     }
-
     public static void showInfoStatic() {
-        System.out.println("Age : " + age + " - Name : " + name + " - Family : can not show because it's non-Static");
+        System.out.println("Show info STATIC == Age : " + age + " - Name : " + name + " - Family : can not show because it's non-Static");
     }
-
-
 }
 
 public class JavaStatic {
