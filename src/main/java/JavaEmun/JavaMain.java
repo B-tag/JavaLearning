@@ -1,7 +1,5 @@
 package JavaEmun;
 
-import java.awt.*;
-
 public class JavaMain {
     public static void main(String[] args) {
 

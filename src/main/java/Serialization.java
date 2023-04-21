@@ -6,9 +6,9 @@ public class Serialization {
 
         // write to a file
         Car[] carsCreation = {new Car(123, "Renault01", "White01")
-                , new Car(15523, "Renault02", "White02")
-                , new Car(16623, "Renault03", "White03")
-                , new Car(18823, "Renault04", "White04")};
+                , new Car(1111, "Renault012", "White022")
+                , new Car(2222, "Renault0113", "White0113")
+                , new Car(3333, "Renault05654", "White56504")};
         FileOutputStream fileOutputStream = new FileOutputStream("NewListofCars.data");
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
         objectOutputStream.writeObject(carsCreation);
