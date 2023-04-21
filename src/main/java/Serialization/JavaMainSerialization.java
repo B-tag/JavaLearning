@@ -1,6 +1,8 @@
+package Serialization;
+
 import java.io.*;
 
-public class Serialization {
+public class JavaMainSerialization {
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
 
