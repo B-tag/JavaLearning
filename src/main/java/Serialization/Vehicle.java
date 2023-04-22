@@ -2,13 +2,13 @@ package Serialization;
 
 import java.io.Serializable;
 
-public class Car implements Serializable {
+public class Vehicle implements Serializable {
 
     private int VNI;
     private String brand;
     private String color;
 
-    public Car(int VNI, String brand, String color) {
+    public Vehicle(int VNI, String brand, String color) {
         this.VNI = VNI;
         this.brand = brand;
         this.color = color;

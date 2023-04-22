@@ -9,9 +9,9 @@ public class SerializationRead {
     public static void readSerialFile() throws IOException, ClassNotFoundException {
         FileInputStream fileInputStream = new FileInputStream("NewListOfCars.data");
         ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
-        Car[] cars = (Car[]) objectInputStream.readObject();
-        for (Car anyCar : cars) {
-            System.out.println(anyCar);
+        Vehicle[] vehicles = (Vehicle[]) objectInputStream.readObject();
+        for (Vehicle anyVehicle : vehicles) {
+            System.out.println(anyVehicle);
         }
         objectInputStream.close();
     }
