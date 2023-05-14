@@ -14,6 +14,17 @@ public class JavaNumericValue {
 
         System.out.println("Value is : " + c);
 
+        System.out.println("------------------------------");
+        int a2 = 20;
+        System.out.println("a2 value is : " + a2);
+        Integer b2 = Integer.valueOf(a2);
+        System.out.println("Converted Value of b is: " + b2);
+        Integer b3 = a2;
+        System.out.println("Value of b3 is : " + b3);
+//        Integer c2 = new Integer(30); or Integer c2=30;
+        Integer c2 = 30;
+        int d2 = c2.intValue();
+        System.out.println("Converted Value of d is: " + d2);
 
 //        System.out.println("Byte max value : " + Byte.MAX_VALUE);
 //        System.out.println("Byte min value : " + Byte.MIN_VALUE);
