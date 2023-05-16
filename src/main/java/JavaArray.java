@@ -6,6 +6,8 @@ public class JavaArray {
 
         int number01 = 10;
         int[] numbers = {10, 15, 1, 84, 65};
+//        numbers[5] = 25; out of bound numbers last index is 4 and it's not extendable // compiler error
+//        System.out.printf("" + numbers[5]);  // compiler error in line 9
 
         System.out.println("The Integer variable is : " + number01);
         System.out.println("The Array (Integer) variable is : " + numbers); // address only

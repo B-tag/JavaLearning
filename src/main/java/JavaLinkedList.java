@@ -13,11 +13,20 @@ public class JavaLinkedList {
         myLinkedList.add(5);
         myLinkedList.add(14);
 
-        // Add item to linked list
-        myLinkedList.add(5,21);
+        System.out.println(myLinkedList.toString());
 
-        // change the value of list item
+        // Add item to linked list - add to the list
+        myLinkedList.add(5,21);
+        System.out.println(myLinkedList.toString());
+
+        // change the value of list item - replace
         myLinkedList.set(1,44444);
+        System.out.println(myLinkedList.toString());
+
+        // Remove an item
+        myLinkedList.remove(3);
+        System.out.println(myLinkedList.toString());
+
 
         int i=0;
 
