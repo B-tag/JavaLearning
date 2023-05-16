@@ -19,21 +19,17 @@ public class JavaHashMap {
 
         extracted(myMap); // To show key value pairs
 
-        myMap.put(11,"My Set"); // overwrite on key = 11
-        myMap.put(152,"new Entry");
+        myMap.put(11, "My Set"); // overwrite on key = 11
+        myMap.put(152, "new Entry");
 
         System.out.println();
         extracted(myMap);
-
-
     }
 
-
-
     private static void extracted(HashMap<Integer, String> myMap) {
-        for (Map.Entry<Integer, String> loopCounter: myMap.entrySet()){
-            System.out.print("Key :"+loopCounter.getKey());
-            System.out.println("  --- Value :"+loopCounter.getValue());
+        for (Map.Entry<Integer, String> loopCounter : myMap.entrySet()) {
+            System.out.print("Key :" + loopCounter.getKey());
+            System.out.println("  --- Value :" + loopCounter.getValue());
         }
     }
 }
