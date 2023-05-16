@@ -20,7 +20,7 @@ public class JavaVariables {
         boolean bool03 = a01 < a02 ? bool01 : bool02;
         System.out.println(bool03);
 //
-//
+
 //        String text = "pool";
 //        char chara = 'e';
 //        System.out.println(a + text);
