@@ -37,12 +37,11 @@ public class JavaLinkedHashMap {
         myHashMap.put(11, "ABC-06");
         System.out.println("MY HashMap       : " + myHashMap);
 
-
-//        extracted(treeMap, "Tree");
-//        System.out.println();
-//        extracted(linkedHashMap, "Linked Hash");
-//        System.out.println();
-//        extracted(myHashMap, "My Hash");
+        extracted(treeMap, "Tree");
+        System.out.println();
+        extracted(linkedHashMap, "Linked Hash");
+        System.out.println();
+        extracted(myHashMap, "My Hash");
 
     }
 
