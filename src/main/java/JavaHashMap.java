@@ -5,25 +5,25 @@ public class JavaHashMap {
 
     public static void main(String[] args) {
 
-        HashMap<Integer, String> myMap = new HashMap<>();
+        HashMap<Integer, String> myHashMap = new HashMap<>();
 
-        myMap.put(1, "ABC-01");
-        myMap.put(2, "ABC-02");
-        myMap.put(3, "ABC-03");
-        myMap.put(77, "ABC-04");
-        myMap.put(123, "ABC-05");
-        myMap.put(11, "ABC-06");
-        myMap.put(8, "ABC-07");
+        myHashMap.put(1, "ABC-01");
+        myHashMap.put(2, "ABC-02");
+        myHashMap.put(3, "ABC-03");
+        myHashMap.put(77, "ABC-04");
+        myHashMap.put(123, "ABC-05");
+        myHashMap.put(11, "ABC-06");
+        myHashMap.put(8, "ABC-07");
 
-        System.out.println(myMap);
+        System.out.println(myHashMap);
 
-        extracted(myMap); // To show key value pairs
+        extracted(myHashMap); // To show key value pairs
 
-        myMap.put(11, "My Set"); // overwrite on key = 11
-        myMap.put(152, "new Entry");
+        myHashMap.put(11, "My Set"); // overwrite on key = 11
+        myHashMap.put(152, "new Entry");
 
         System.out.println();
-        extracted(myMap);
+        extracted(myHashMap);
     }
 
     private static void extracted(HashMap<Integer, String> myMap) {
