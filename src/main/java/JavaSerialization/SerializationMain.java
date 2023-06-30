@@ -3,9 +3,7 @@ package JavaSerialization;
 import java.io.*;
 
 public class SerializationMain {
-
-
-
+    
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         WritingClass writingClass=new WritingClass();
         ReadingClass readingClass=new ReadingClass();
@@ -19,7 +17,7 @@ public class SerializationMain {
 //        writingClass.extracted(carsCreation);
 
         // read from a file
-        readingClass.readingFile();
+//        readingClass.readingFile();
 
     }
 
