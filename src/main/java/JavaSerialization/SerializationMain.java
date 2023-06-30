@@ -2,7 +2,7 @@ package JavaSerialization;
 
 import java.io.*;
 
-public class Serialization {
+public class SerializationMain {
 
 
 
