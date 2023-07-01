@@ -9,14 +9,17 @@ public class SuperClass {
         System.out.println("\nMy name is : " + name);
         System.out.println("I'm " + age + " years old\n");
     }
+
     public void showInfo(int age, String name) {
         System.out.println("\nMy name is : " + name);
         System.out.println("I'm " + age + " years old\n");
+        System.out.println("int - String");
     }
 
     public void showInfo(String name, int age) {
         System.out.println("\nMy name is : " + name);
-        System.out.println("I'm " + age + " years old\n");
+        System.out.println("I'm " + age + " years old");
+        System.out.println("int - String\n");
     }
 
     public void showInfoPoly() {
