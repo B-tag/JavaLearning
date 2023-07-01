@@ -3,7 +3,7 @@ package JavaInterfaces;
 public class JavaInterfaceImp implements JavaInterface {
 
     int age;
-    String name,surname;
+    String name, surname;
 
     public JavaInterfaceImp(int age, String name, String surname) {
         this.age = age;
@@ -28,5 +28,11 @@ public class JavaInterfaceImp implements JavaInterface {
     @Override
     public void showInfo(String name) {
         System.out.println("My name is " + name + ".");
+    }
+
+    public void showInformation(JavaInterface inf) {
+        inf.showInfo();
+        inf.showInfo(25);
+        inf.showInfo("Test");
     }
 }

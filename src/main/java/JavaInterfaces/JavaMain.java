@@ -3,8 +3,8 @@ package JavaInterfaces;
 public class JavaMain {
     public static void main(String[] args) {
 
-        JavaInterfaceImp object01=new JavaInterfaceImp();
-        JavaInterfaceImp object02=new JavaInterfaceImp(53,"Test Man","Testing");
+        JavaInterfaceImp object01 = new JavaInterfaceImp();
+        JavaInterfaceImp object02 = new JavaInterfaceImp(53, "Test Man", "Testing");
 
         object01.showInfo();
         object01.showInfo(23);
@@ -14,12 +14,17 @@ public class JavaMain {
         object02.showInfo(object02.age);
         object02.showInfo(object02.name);
 
-        //  object01.a=10; not allowed
+//          object01.a=10; //not allowed
         System.out.println(object01.a);
 
         //  object01.b="er"; not allowed
         System.out.println(object01.name);
 
+        System.out.println("Show interface field int a : " + JavaInterface.a);
+        System.out.println("Show interface field String b : " + JavaInterface.b);
+
+        JavaInterface javaInterface = new JavaInterfaceImp();
+        object01.showInformation(javaInterface);
 
     }
 }
