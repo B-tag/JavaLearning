@@ -1,6 +1,6 @@
 package JavaAbstractClass;
 
-public class JavaAbstractClass {
+public class JavaMain {
 
     public static void main(String[] args) {
 
