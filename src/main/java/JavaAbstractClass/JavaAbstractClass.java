@@ -14,10 +14,12 @@ public class JavaAbstractClass {
         AbstractClass abstractClass = new AbstractClass() {
             @Override
             public void test01() {
-                System.out.println("Test 01");
+                System.out.println("Main class Test 01 method");
             }
         };
         abstractClass.test01();
+
+        myCarClass.test01();
 
     }
 

@@ -21,5 +21,6 @@ public abstract class AbstractClass {
         this.car = car;
     }
 
+    // must implement in extended classes
     public abstract void test01();
 }
