@@ -1,10 +1,6 @@
 package JavaAbstractClass;
 
-<<<<<<<< HEAD:src/main/java/JavaAbstractClass/MainJavaClass.java
 public class MainJavaClass {
-========
-public class JavaMain {
->>>>>>>> 77972f3a2b3c7dc59b7a96a0f41cc6ba07b57129:src/main/java/JavaAbstractClass/JavaMain.java
 
     public static void main(String[] args) {
 
@@ -34,3 +30,4 @@ public class JavaMain {
     }
 
 }
+
