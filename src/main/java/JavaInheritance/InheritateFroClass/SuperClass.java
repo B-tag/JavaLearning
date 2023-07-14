@@ -10,5 +10,7 @@ public class SuperClass {
         System.out.println("Name is : "+superClass.name);
     }
 
-
+    public void overRideMethod(){
+        System.out.println("This is SuperClass Method");
+    }
 }
