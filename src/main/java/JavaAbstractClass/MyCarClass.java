@@ -10,4 +10,9 @@ public class MyCarClass extends AbstractClass {
         System.out.println("MyCarClass Test 01 method");
     }
 
+    @Override
+    public void test02() {
+        System.out.println("MyCarClass Test 02 method");
+    }
+
 }

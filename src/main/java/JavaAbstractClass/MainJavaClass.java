@@ -1,6 +1,6 @@
 package JavaAbstractClass;
 
-public class JavaAbstractClass {
+public class MainJavaClass {
 
     public static void main(String[] args) {
 
@@ -16,8 +16,14 @@ public class JavaAbstractClass {
             public void test01() {
                 System.out.println("Main class Test 01 method");
             }
+
+            @Override
+            public void test02() {
+
+            }
         };
         abstractClass.test01();
+        abstractClass.test02();
 
         myCarClass.test01();
 
