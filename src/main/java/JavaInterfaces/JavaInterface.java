@@ -6,8 +6,9 @@ public interface JavaInterface {
     public int a = 0;
     public String b="Test";
 
-    public void showInfo();
-    public void showInfo(int age);
+    // access modifier not needed
+    void showInfo();
+    public void showInfo(int a);
     public void showInfo(String name);
 
 

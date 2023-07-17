@@ -23,4 +23,5 @@ public abstract class AbstractClass {
 
     // must implement in extended classes
     public abstract void test01();
+    public abstract void test02();
 }

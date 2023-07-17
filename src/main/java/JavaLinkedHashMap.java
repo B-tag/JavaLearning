@@ -6,8 +6,8 @@ import java.util.TreeMap;
 public class JavaLinkedHashMap {
     public static void main(String[] args) {
 
-        LinkedHashMap<Integer, String> linkedHashMap = new LinkedHashMap<Integer, String>(); // No Null key multiple null value - print in inserted value order
-        TreeMap<Integer, String> treeMap = new TreeMap<Integer, String>(); // one Null key multiple null value - in key order
+        LinkedHashMap<Integer, String> linkedHashMap = new LinkedHashMap<>(); // No Null key multiple null value - print in inserted value order
+        TreeMap<Integer, String> treeMap = new TreeMap<>(); // one Null key multiple null value - in key order
         HashMap<Integer, String> myHashMap = new HashMap<>(); // one Null key multiple null value - not in order
 
         treeMap.put(1, "ABC-01");
