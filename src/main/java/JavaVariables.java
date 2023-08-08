@@ -19,6 +19,10 @@ public class JavaVariables {
         boolean bool02 = false;
         boolean bool03 = a01 < a02 ? bool01 : bool02;
         System.out.println(bool03);
+
+        // compiler error
+//        int test00= Integer.parseInt("value");
+//        System.out.println(test00);
 //
 
 //        String text = "pool";
