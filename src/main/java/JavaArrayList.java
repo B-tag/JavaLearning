@@ -1,6 +1,8 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class JavaArrayList {
+
     public static void main(String[] args) {
 
         ArrayList<Integer> myArrayList = new ArrayList<Integer>();
@@ -8,28 +10,42 @@ public class JavaArrayList {
         myArrayList.add(144);
         myArrayList.add(256);
         myArrayList.add(23);
-        myArrayList.add(64);
-        myArrayList.add(5);
-        myArrayList.add(96);
-        myArrayList.add(71);
-        myArrayList.add(18);
-        myArrayList.add(1119);
-        myArrayList.add(210);
+        myArrayList.add(144);
 
-        // add a member between 10 and eleven then the length grow to 12
-        myArrayList.add(10,21);
 
+        System.out.println("The original Arraylist :");
+        showArrayList(myArrayList);
+        System.out.println("************************");
+
+        System.out.println("Add element at index 3 to Arraylist :");
+        // add a member between 2 and 3 then the length grow +1 (move to right)
+        myArrayList.add(3, 21);
         // change the value of member in index 2
 //        myArrayList.set(2,45);
 
+        showArrayList(myArrayList);
+
+        System.out.println("************************");
+        myArrayList.remove(0);
+        System.out.println("remove element at index 0 in Arraylist :");
+        showArrayList(myArrayList);
+
+        System.out.println("************************");
+        System.out.println("Sorted Arraylist :");
+        Collections.sort(myArrayList);
+        showArrayList(myArrayList);
+
+    }
+
+    private static void showArrayList(ArrayList<Integer> myArrayList) {
         int i = 0;
 
         for (int list : myArrayList) {
             System.out.print("myArraylist members value :" + list);
-            System.out.println("--- index is : " + (i) );
+            System.out.println(" --- index is : " + (i));
             i++;
         }
-
     }
+
 
 }
