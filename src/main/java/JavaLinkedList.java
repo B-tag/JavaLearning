@@ -40,6 +40,8 @@ public class JavaLinkedList {
         Collections.sort(myLinkedList);
         showLinkedList(myLinkedList);
 
+        System.out.println(myLinkedList.get(2));
+
 
     }
 
